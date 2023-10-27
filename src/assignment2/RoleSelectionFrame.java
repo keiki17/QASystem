@@ -27,7 +27,7 @@ public class RoleSelectionFrame extends JFrame {
         
         
         // Student button
-        studentButton = new JButton("Student");
+        studentButton = new JButton("Login as Student");
         studentButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 // Proceed to student view
@@ -40,7 +40,7 @@ public class RoleSelectionFrame extends JFrame {
         });
 
         // Staff button
-        staffButton = new JButton("Staff");
+        staffButton = new JButton("Login as Staff");
         staffButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 // Proceed to staff view
