@@ -8,24 +8,53 @@ package assignment2;
  *
  * @author Daijimara Chan-Ting
  */
+
+import java.awt.FlowLayout;
 import javax.swing.*;
+import java.awt.event.*;
 
 public class StudentView extends JFrame {
     // For simplicity, we're using a JTextArea to simulate the list of questions.
-    private JTextArea questionsArea;
-
+    //private JTextArea questionsArea;
+    private JButton mainMenuButton;
+    private JPanel studentPanel;
+    
     public StudentView() {
         // Frame initialization
-        setTitle("Student View");
+        setTitle("QA System - Student View");
         setSize(500, 400);
         setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS)); // vertical layout
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        mainMenuButton = new JButton("Back to Main Menu");
+        
+        mainMenuButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Proceed to staff view
+                RoleSelectionFrame roleSelectionFrame = new RoleSelectionFrame();
+                roleSelectionFrame.setVisible(true);
+                // Hide and dispose of the current window
+                setVisible(false);
+                dispose();
+            }
+        });
 
-        questionsArea = new JTextArea("Here will be a list of questions and answers...");
-        questionsArea.setEditable(false); // so it cannot be modified
-        add(new JScrollPane(questionsArea)); // enable scrolling
+        // Set up layout        
+        studentPanel = new JPanel();
+        studentPanel.setLayout(new FlowLayout());
+        
+        studentPanel.add(mainMenuButton);
+        //studentPanel.add(editButton);
+        //studentPanel.add(deleteButton);
+        studentPanel.add(mainMenuButton);
+        // Add components to the frame
+        //setContentPane(mainPanel);
+        getContentPane().add(studentPanel);
+        setSize(500,150);
+        //setLocationRelativeTo(null);
+        setVisible(true);
 
-        // In a full application, you would retrieve and display questions from the Apache Derby database here.
+        // Retrieve and display questions from the Apache Derby database here.
     }
 }
 
