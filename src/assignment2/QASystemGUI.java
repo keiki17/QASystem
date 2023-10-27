@@ -104,7 +104,7 @@ public class QASystemGUI extends JFrame {
 
     private void openMainMenu() {
         // Implement student menu GUI
-        titleLabel.setText("Student View");
+        titleLabel.setText("Main Menu View");
         
         mainPanel.add(staffLoginButton);
         mainPanel.add(studentLoginButton);
