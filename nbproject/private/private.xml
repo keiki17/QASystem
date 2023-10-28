@@ -4,14 +4,22 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/MainApplication.java</file>
-            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/SimpleBookStore.java</file>
-            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/MainApplicationFrame.java</file>
-            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/StaffView.java</file>
-            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/SimpleDBManager.java</file>
-            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/DatabaseManager.java</file>
-            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/RolePanel.java</file>
-            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/QuestionList.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/LoginFrame.java</file>
             <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/QASystemGUI.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/DatabaseQueryApp.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/QuestionList.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/RolePanel.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/SimpleBookStore.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/StaffView.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/Question.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/QASystem.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/StudentView.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/MainApplicationFrame.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/RoleSelectionFrame.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/getSchemas.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/DatabaseManager.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/SimpleDBManager.java</file>
+            <file>file:/D:/My%20Docs/Daijis%20Assignment/Assignment2/src/assignment2/TableRowListener.java</file>
         </group>
     </open-files>
 </project-private>

@@ -11,6 +11,7 @@ package assignment2;
 
 // StudentPanel.java
 
+import java.awt.BorderLayout;
 import javax.swing.*;
 
 public class RolePanel extends JPanel {
@@ -28,7 +29,7 @@ public class RolePanel extends JPanel {
     }
     
     public void setTitle(String title){
-        titleLabel = new JLabel(title, SwingConstants.CENTER);
+        titleLabel = new JLabel(title);
         this.add(titleLabel);
     }
     // Methods to add, edit, delete, and refresh questions from the database will go here.
