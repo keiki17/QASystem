@@ -25,7 +25,6 @@ public class RolePanel extends JPanel {
         // involve calling the appropriate DatabaseManager methods.
         // This is a placeholder for your UI setup.
         
-        
     }
     
     public void setTitle(String title){
@@ -33,4 +32,8 @@ public class RolePanel extends JPanel {
         this.add(titleLabel);
     }
     // Methods to add, edit, delete, and refresh questions from the database will go here.
+    
+    public void questionAnswerList(){
+        
+    }
 }
